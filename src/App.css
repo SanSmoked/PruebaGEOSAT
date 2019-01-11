@@ -1,10 +1,11 @@
 .App {
-  text-align: center;
+  margin: auto;
+  width: 70%;
+  
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 80px;
 }
 
 .App-header {
@@ -29,4 +30,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.myForm{
+  width: 60%;
+  background-color: #dfe6e9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
